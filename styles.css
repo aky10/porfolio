@@ -1,0 +1,148 @@
+body{
+    background-color: #EAF6F6;
+    margin: 0;
+    text-align: center;/* for centering the all thing inside body written(only if the text is fully width*/
+    font-family: 'Merriweather',serif;
+    font-size: 100%;
+}
+/*1 rem/em =16px   for font size*/
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #048181;
+    /*when widht is not fully till end*/
+    /*width:10%;
+    margin:0 auto 0 auto;/* when the text is not fully alligned as on line 6 we use this to put it at center  0(top) auto(right) 0(bottom) auto(left)*/
+}
+
+h2{
+    /* font-weight: bold; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #66BFBF;
+}
+
+
+h3{
+    color: #11999E;
+}
+
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto 100px auto;
+
+}
+
+p{
+    line-height: 2;
+}
+.skill-row{
+    width: 50%; /* to make size of width  skil row block small*/
+    margin: 100px auto 100px auto; /*by making widht size 50% the image got shifted to left to put it back in center  see in mdn*/
+    text-align: left; /*to make the text alligned leftwards*/
+    line-height: 2;/*height of the text between 2 lines will get doubled*/
+}
+
+.cp{
+    width:25%;/* to make size of width  image small*/
+    float: left;/* the text written within the image will float on any 4 direc*/
+    margin-right: 30px;
+}
+
+/* .cp-descrip{
+    clear: left;/* moves the description part of cp down to image except heading*/
+/*
+.webdev-descrip{
+    clear: right;
+} */
+.webdev{
+    width: 25%;/* to make size of width  image small*/
+    float: right;
+    margin-left: 30px; 
+}
+
+.top-container{
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container{
+    padding-top: 30px;
+}
+
+.bottom-container{
+    margin-top: 50px;
+    background-color: #84d6f3;
+    padding: 40px 0 20px;
+}
+
+a{
+    color: #11999E;
+    margin: auto 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #ffffff;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 0.70rem;
+    padding: 20px 0;
+}
+.contact-me{
+    
+}
+.bottom-cloud{
+    position:absolute;/*it will be relative(means all changes will be based on the size of top container) to top container else it will be relative to entire screen*/
+    right: 300px;
+    top: 20px;
+}
+.contact-msg{
+    width: 30%;
+    margin: 50px auto auto;
+}
+
+.top-cloud{
+    position:absolute;/*it will be relative(means all changes will be based on the size of top container) to top container else it will be relative to entire screen*/
+    left:300px;
+    bottom: 300px;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+    /* line-height: 2; */
+}
+
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #1a119e);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11269e);
+    background-image: -ms-linear-gradient(top, #11CDD4, #112b9e);
+    background-image: -o-linear-gradient(top, #11CDD4, #11329e);
+    background-image: linear-gradient(to bottom, #11CDD4, #11269e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    /* margin: 10px; */
+  }
+  
+  .btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    text-decoration: none;
+  }
+
